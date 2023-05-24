@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -29,6 +31,21 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../wealth_of_egypt_keystore.jks")
+            storePassword "123456"
+            keyAlias "key"
+            keyPassword "123456"
+        }
+        debug {
+            storeFile file("../wealth_of_egypt_keystore.jks")
+            storePassword "123456"
+            keyAlias "key"
+            keyPassword "123456"
+        }
     }
 }
 
