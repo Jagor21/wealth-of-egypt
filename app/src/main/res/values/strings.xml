@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Egypt Power</string>
+    <string name="app_name">Wealth OF Egypt</string>
     <string name="reminders_notification_channel_id">egypt_power_channel_id</string>
     <string name="default_notification_channel_id">com.sibertas.egyptpower</string>
     <string name="reminders_notification_channel_name">egypt_power_channel_name</string>

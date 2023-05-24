@@ -462,7 +462,7 @@ class MainActivity : AppCompatActivity() {
                     val queue = Volley.newRequestQueue(this)
                     val stringRequest = StringRequest(
                         Request.Method.GET,
-                        "https://yhuqaaetu.vn.ua//click?ecid=&bundle_id=com.argentum_petasum.wealthofegypt&subid1=$subId1&appsflyer_id=$appsflyerUserId&advertising_id=$advertisingId",
+                        "https://acalyely.com/click?ecid=&bundle_id=com.argentum_petasum.wealthofegypt&subid1=$subId1&appsflyer_id=$appsflyerUserId&advertising_id=$advertisingId",
                         { response ->
                             // Display the first 500 characters of the response string.
                             Log.d("S`TRING_RESPONSE", response)
@@ -489,7 +489,7 @@ class MainActivity : AppCompatActivity() {
                 val queue = Volley.newRequestQueue(this)
                 val stringRequest = StringRequest(
                     Request.Method.GET,
-                    "https://yhuqaaetu.vn.ua//click?ecid=&bundle_id=com.argentum_petasum.wealthofegypt&subid1=$subId1&appsflyer_id=$appsflyerUserId&advertising_id=$advertisingId",
+                    "https://acalyely.com/click?ecid=&bundle_id=com.argentum_petasum.wealthofegypt&subid1=$subId1&appsflyer_id=$appsflyerUserId&advertising_id=$advertisingId",
                     { response ->
                         // Display the first 500 characters of the response string.
                         Log.d("STRING_RESPONSE", response)
