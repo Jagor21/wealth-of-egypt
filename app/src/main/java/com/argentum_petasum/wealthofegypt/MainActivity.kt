@@ -161,7 +161,7 @@ class MainActivity : AppCompatActivity() {
         Log.d("MUSIC", playmusic.toString())
         sharedPreferences = getSharedPreferences("your_prefs", Activity.MODE_PRIVATE)
         sharedPrefEditor = sharedPreferences.edit()
-        (application as EgyptPowerApp).conversionData.onEach { subId1 ->
+        (application as WealthOfEgyptApp).conversionData.onEach { subId1 ->
             if (subId1 != null && subId1 is String && subId1.isNotEmpty()) {
                 manageUILogic(subId1 = subId1)
             }

@@ -7,11 +7,10 @@ import android.content.Intent
 import android.os.Build
 import android.util.Log
 import androidx.core.app.NotificationCompat
-import androidx.core.os.bundleOf
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
-class EgyptPowerFCMService: FirebaseMessagingService() {
+class WealthOfEgyptFCMService: FirebaseMessagingService() {
 
 
     companion object {

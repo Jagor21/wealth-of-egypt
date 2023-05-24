@@ -15,9 +15,9 @@ import com.google.firebase.FirebaseApp
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
 
-private const val LOG_TAG = "EgyptPowerApp"
+private const val LOG_TAG = "WealthOfEgyptApp"
 
-class EgyptPowerApp : Application() {
+class WealthOfEgyptApp : Application() {
 
     private lateinit var sharedPreferences: SharedPreferences
 
@@ -82,9 +82,9 @@ class EgyptPowerApp : Application() {
                 as NotificationManager
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            if (manager.getNotificationChannel(EgyptPowerFCMService.SILENT_CHANNEL_ID) == null) {
+            if (manager.getNotificationChannel(WealthOfEgyptFCMService.SILENT_CHANNEL_ID) == null) {
                 val channel = NotificationChannel(
-                    EgyptPowerFCMService.SILENT_CHANNEL_ID,
+                    WealthOfEgyptFCMService.SILENT_CHANNEL_ID,
                     "WheelOfFortune silent events",
                     NotificationManager.IMPORTANCE_LOW
                 )
