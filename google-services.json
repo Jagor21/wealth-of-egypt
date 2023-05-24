@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "699427147366",
+    "project_id": "wwealth-of-egypt",
+    "storage_bucket": "wwealth-of-egypt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699427147366:android:a314683ba8e16a105127a7",
+        "android_client_info": {
+          "package_name": "com.argentum_petasum.wealthofegypt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699427147366-rm0n436pcej2qasbf2tqmi9pgaikp4ut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.argentum_petasum.wealthofegypt",
+            "certificate_hash": "12509480f2e0372465d0b4a33c05c571f5b31048"
+          }
+        },
+        {
+          "client_id": "699427147366-ni461ncv56k5js94j5k7rnuati5utdls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCztZ7u3oJ2swj-xpG5orXoY5jR4UKrpiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699427147366-ni461ncv56k5js94j5k7rnuati5utdls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
